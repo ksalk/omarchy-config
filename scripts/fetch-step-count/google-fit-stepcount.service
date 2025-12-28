@@ -1,0 +1,7 @@
+[Unit]
+Description=Fetch Google Fit step count data
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/ksalk/dev/google-fit-stepcount
+ExecStart=/home/ksalk/.config/nvm/versions/node/v24.6.0/bin/npm start

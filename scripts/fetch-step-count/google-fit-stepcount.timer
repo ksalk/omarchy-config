@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Google Fit step count script every 10 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10min
+Unit=google-fit-stepcount.service
+
+[Install]
+WantedBy=timers.target

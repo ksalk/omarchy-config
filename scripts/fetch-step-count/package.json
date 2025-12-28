@@ -1,0 +1,24 @@
+{
+  "name": "google-fit-stepcount",
+  "version": "1.0.0",
+  "description": "A script to fetch Google Fit step count data.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "google-fit",
+    "api",
+    "steps"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "googleapis": "^169.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  }
+}
